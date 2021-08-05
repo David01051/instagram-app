@@ -6,6 +6,7 @@ import Icons from '../Header/Icons';
 
 const BodyHeader = styled.div`
 position:fixed;
+z-index:1;
 display:flex;
 justify-content:space-evenly;
 align-items:center;

@@ -11,12 +11,12 @@ justify-content:center;
 align-items:center;
 flex-direction:column;
 width:100vw;
-height:100vh;
+height:fit-content;
 background-color:rgb(240,240,240);
 @media screen and (max-width: 600px){
   background-color:rgb(24,24,24);
-  width:100%;
-  height:100%;
+  width:100vw;
+  height:fit-content;
 }
 
 `
@@ -28,7 +28,7 @@ function Continer() {
        <Story/>
        <User/>
        <User/>
-       <User/>
+      
       <Footer/>
        </Body>
       </>
