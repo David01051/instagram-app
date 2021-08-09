@@ -11,9 +11,10 @@ height:100px;
 border: 1px solid rgb(219,219,219);
 border-radius:4px;
 @media screen and (max-width: 600px){
-  background-color:rgb(24,24,24);
+  /* background-color:rgb(24,24,24); */
+  background-color:black;
   border:none;
-  width:100%;
+  width:100vw;
 }
 `
 const UserStory = styled.div`
@@ -51,6 +52,27 @@ function Story() {
     </UserImg>
     <span>user name</span>
         </UserStory>
+        <UserStory>
+    < UserImg>
+    </UserImg>
+    <span>user name</span>
+        </UserStory>
+        <UserStory>
+    < UserImg>
+    </UserImg>
+    <span>user name</span>
+        </UserStory>
+        <UserStory>
+    < UserImg>
+    </UserImg>
+    <span>user name</span>
+        </UserStory>
+        <UserStory>
+    < UserImg>
+    </UserImg>
+    <span>user name</span>
+        </UserStory>
+        
 
         </BodyStor>
        

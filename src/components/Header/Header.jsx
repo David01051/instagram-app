@@ -15,7 +15,7 @@ height:60px;
 border:1px solid rgb(219,219,219);
 background-color:rgb(255,255,255);
 @media screen and (max-width: 600px){
-  background-color:rgb(60,60,60);
+  background-color:black;
   border:none;
   display:flex;
   justify-content:space-around;

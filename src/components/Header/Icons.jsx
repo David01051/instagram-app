@@ -13,6 +13,7 @@ flex-direction:row;
 font-size:20px;
 @media screen and (max-width: 600px){
   width:100px;
+  color:white;
   
 }
 
@@ -24,6 +25,7 @@ height:25px;
 border-radius:50%;
 @media screen and (max-width: 600px){
   display:none;
+  
 }
 `
 

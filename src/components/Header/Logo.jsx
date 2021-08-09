@@ -11,13 +11,13 @@ img{
 
 
 function ShowLogo() {
-    return (
-      <>
-        <LogoImg>
-            <img src="InstagramLogo.svg" alt="Logo"/>
-        </LogoImg>
-      </>
-    );
-  }
-  
-  export default ShowLogo;
+  return (
+    <>
+      <LogoImg>
+        <img src="Instagram_logo.svg.png" alt="Logo" />
+      </LogoImg>
+    </>
+  );
+}
+
+export default ShowLogo;

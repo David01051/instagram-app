@@ -13,8 +13,9 @@ flex-direction:column;
 width:100vw;
 height:fit-content;
 background-color:rgb(240,240,240);
+
 @media screen and (max-width: 600px){
-  background-color:rgb(24,24,24);
+  background-color:black;
   width:100vw;
   height:fit-content;
 }
